@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Crowd Counting
 
 The goal of this project is crowd counting analysis based on image and video dataset input.
@@ -49,8 +50,8 @@ The project implements five deep learning models to predict the number of people
 - Cascaded CNN (custom)
 - MCNN + CSRNet, using VGG extractor
 - ViT-B/16
-- SAM + ViT-H as backbone
-- Pre Trained YOLOv8
+- SAM + ViT-H
+- YOLOv8 (Fine tuned + integrated with Optical Flow)
 
 The pre-trained YOLO model was then integrated with an Optical Flow system to give it more depth, and to help analyse more qualitative crowd motion, like direction and magnitude of speed of individuals.
 
